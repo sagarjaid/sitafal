@@ -98,6 +98,138 @@ const LandingPage = () => {
                   className="w-fit md:block text-center"
                 />
               </div>
+
+              {/* {show && (
+            <>
+              <div className="flex flex-col gap-4">
+                <p>
+                  If you're looking to improve your English communication
+                  skills, there are plenty of options available, including
+                  spoken English classes, English speaking courses, and online
+                  English speaking courses.
+                </p>
+                <p>
+                  For those on a tight budget, there are free English speaking
+                  courses available online, as well as spoken English classes
+                  online free of charge.
+                </p>
+                <p>
+                  If you prefer a more structured approach to learning, you can
+                  enroll in a spoken English course, either online or in person.
+                </p>
+                <p>
+                  Many institutions offer basic spoken English courses as well
+                  as more advanced ones, such as fluent English speaking courses
+                  or courses focused on spoken English conversation.
+                </p>
+                <p>
+                  For those who prefer the convenience of online learning, there
+                  are plenty of options for online English speaking classes and
+                  the best online English speaking courses, such as those
+                  offered on Udemy.
+                </p>
+                <p>
+                  Some courses even offer instruction in multiple languages,
+                  such as an English speaking course in Hindi.
+                </p>
+                <p>
+                  Whatever your learning style and budget, there is a spoken
+                  English class or course that can help you achieve your goals.
+                </p>
+              </div>
+              <div>
+                <div className="flex flex-wrap text-xs gap-2">
+                  <span className="p-1">Tags : </span>
+                  <span className="p-1 border rounded-full px-2">
+                    spoken english classes in {x}
+                  </span>
+                  <span className="p-1 border rounded-full px-2">
+                    english speaking course in {x}
+                  </span>
+                  <span className="p-1 border rounded-full px-2">
+                    online english speaking course in {x}
+                  </span>
+                  <span className="p-1 border rounded-full px-2">
+                    english speaking course online free spoken english classes
+                    online
+                  </span>
+                  <span className="p-1 border rounded-full px-2">
+                    spoken english course in {x}
+                  </span>
+                  <span className="p-1 border rounded-full px-2">
+                    free english speaking course in {x}
+                  </span>
+                  <span className="p-1 border rounded-full px-2">
+                    english speaking classes in {x}
+                  </span>
+                  <span className="p-1 border rounded-full px-2">
+                    spoken english conversation in {x}
+                  </span>
+                  <span className="p-1 border rounded-full px-2">
+                    online english speaking classes in {x}
+                  </span>
+                  <span className="p-1 border rounded-full px-2">
+                    {" "}
+                    spoken english classes online free fluent english speaking
+                    course in {x}
+                  </span>
+                  <span className="p-1 border rounded-full px-2">
+                    speak english conversation in {x}
+                  </span>
+                  <span className="p-1 border rounded-full px-2">
+                    best online english speaking course in {x}
+                  </span>
+                  <span className="p-1 border rounded-full px-2">
+                    spoken english course online best english speaking course
+                    online
+                  </span>
+                  <span className="p-1 border rounded-full px-2">
+                    free best english speaking course in {x}
+                  </span>
+                  <span className="p-1 border rounded-full px-2">
+                    udemy english speaking course english speaking course in
+                    hindi spoken class in {x}
+                  </span>
+                  <span className="p-1 border rounded-full px-2">
+                    spoken english course online free learning english speaking
+                    course in {x}
+                  </span>
+                  <span className="p-1 border rounded-full px-2">
+                    basic spoken english course in {x}
+                  </span>
+                  <span className="p-1 border rounded-full px-2">
+                    spoken english classes near me english speaking course near
+                    me
+                  </span>
+                  <span className="p-1 border rounded-full px-2">
+                    english speaking classes near me spoken english course near
+                    me
+                  </span>
+                  <span className="p-1 border rounded-full px-2">
+                    best spoken english classes near me spoken classes near me
+                    best
+                  </span>
+                  <span className="p-1 border rounded-full px-2">
+                    english speaking classes near me spoken english institution
+                    near
+                  </span>
+                  <span className="p-1 border rounded-full px-2">
+                    me near by spoken english classes near spoken english
+                    classes near
+                  </span>
+                  <span className="p-1 border rounded-full px-2">
+                    english speaking classes spoken english classes near by me
+                  </span>
+                </div>
+              </div>
+            </>
+          )}
+          <span
+            className="text-center cursor-pointer pb-20 hidden sm:inline sm:pb-0"
+            onClick={handleToggle}
+          >
+            {show ? "Show Less" : "Show More"}
+          </span> */}
             </div>
             <div className="bg-yellow-100 w-[50%] pt-10 px-4 mdx:px-6 hidden sm:block">
               <div className="flex flex-col gap-6 fixed">
@@ -156,9 +288,9 @@ const LandingPage = () => {
                     </div>
                   </div>
                 </div>
-              </div>
-              <div className="text-xs absolute bottom-4 text-center p-2">
-                Sitafal - Learn Englsih in 100 day | Made in ❤️ with English
+                <div className="text-xs text-center mt-64 p-2">
+                  Sitafal - Learn Englsih in 100 day | Made in ❤️ with English
+                </div>
               </div>
             </div>
             <div className="bg-white sm:hidden fixed bottom-0 w-full p-2 pb-4">
@@ -257,7 +389,7 @@ const LandingPage = () => {
                   </div>
                 </div>
               </div>
-              <div className="text-xs absolute bottom-4 text-center p-2">
+              <div className="text-xs text-center mt-64 p-2">
                 Sitafal - Learn Englsih in 100 day | Made in ❤️ with English
               </div>
             </div>

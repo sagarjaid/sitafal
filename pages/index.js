@@ -13,7 +13,7 @@ const Home = () => {
         />
 
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://scripai.com/" />
+        <meta property="og:url" content="https://sitafal.co/" />
         <meta
           property="og:title"
           content="Sitafal — Online English Speaking Course"
@@ -25,7 +25,7 @@ const Home = () => {
         <meta property="og:image" content="https://sitafal.co/desk.png" />
 
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="https://scripai.com/" />
+        <meta property="twitter:url" content="https://sitafal.co/" />
         <meta
           property="twitter:title"
           content="Sitafal — Online English Speaking Course"
@@ -37,7 +37,7 @@ const Home = () => {
         <meta property="twitter:image" content="https://sitafal.co/desk.png" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-        <link rel="icon" href="https://scripai.com/favicon.png" />
+        <link rel="icon" href="https://sitafal.co/favicon.svg" />
       </Head>
       <main className="m-auto flex max-w-5xl flex-col px-4">
         <nav className="flex items-center justify-between py-4">
