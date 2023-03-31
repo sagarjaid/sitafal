@@ -84,7 +84,7 @@ const LandingPage = () => {
               className="w-full py-10 md:hidden "
             ></img>
           </div>
-          <div className="flex flex-col items-center gap-6 ">
+          <div className="flex flex-col items-center gap-6 pb-28 sm:pb-0">
             <div className="text-center font-bold xs:text-lg sdm:text-3xl md:text-4xl">
               Loved by 2000+ Learners
             </div>
@@ -93,7 +93,8 @@ const LandingPage = () => {
               className="w-fit md:block text-center"
             />
           </div>
-          {show && (
+
+          {/* {show && (
             <>
               <div className="flex flex-col gap-4">
                 <p>
@@ -219,11 +220,11 @@ const LandingPage = () => {
             </>
           )}
           <span
-            className="text-center cursor-pointer pb-20 sm:pb-0"
+            className="text-center cursor-pointer pb-20 hidden sm:inline sm:pb-0"
             onClick={handleToggle}
           >
             {show ? "Show Less" : "Show More"}
-          </span>
+          </span> */}
         </div>
         <div className="bg-yellow-100 w-[50%] pt-10 px-4 mdx:px-6 hidden sm:block">
           <div className="flex flex-col gap-6 fixed">
@@ -282,13 +283,13 @@ const LandingPage = () => {
                 </div>
               </div>
             </div>
-            <div className="text-xs text-center mt-64">
+            <div className="text-xs text-center mt-64 p-2">
               Sitafal - Learn Englsih in 100 day | Made in ❤️ with English
             </div>
           </div>
         </div>
-        <div className="bg-white sm:hidden fixed bottom-0 w-full p-2">
-          <div className="flex w-full  items-center rounded-md justify-around shadow-md bg-rose-600 p-4 	text-white  hover:bg-rose-700 ">
+        <div className="bg-white sm:hidden fixed bottom-0 w-full p-2 pb-4">
+          <div className="flex w-full  items-center rounded-md justify-around shadow-md bg-rose-600 p-4 text-white  hover:bg-rose-700 ">
             <div className="text-center">
               <div className="text-lg">Book a Free Trial Class </div>
               <div className="text-xs"> Hurry! Limited Seats available</div>
