@@ -289,8 +289,8 @@ const LandingPage = () => {
           </div>
         </div>
         <div className="bg-white sm:hidden fixed bottom-0 w-full p-2 pb-4">
-          <div className="flex w-full  items-center rounded-md justify-around shadow-md bg-rose-600 p-4 text-white  hover:bg-rose-700 ">
-            <div className="text-center">
+          <div className="flex w-full  items-center rounded-md justify-between shadow-md bg-rose-600 p-4 text-white  hover:bg-rose-700 ">
+            <div className="">
               <div className="text-lg">Book a Free Trial Class </div>
               <div className="text-xs"> Hurry! Limited Seats available</div>
             </div>
