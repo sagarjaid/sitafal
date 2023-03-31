@@ -157,7 +157,7 @@ const LandingPage = () => {
                   </div>
                 </div>
               </div>
-              <div className="text-xs absolute bottom-4 text-center p-2">
+              <div className="text-xs fixed bottom-4 text-center p-2">
                 Sitafal - Learn Englsih in 100 day | Made in ❤️ with English
               </div>
             </div>
