@@ -80,7 +80,7 @@ const Home = () => {
             </ul>
           </div>
         </nav>
-        <div className="flex flex-col items-center justify-center gap-4 py-20 ">
+        <div className="flex flex-col items-center justify-center gap-4 py-10 ">
           <div className="line flex flex-col text-center text-base font-extrabold xs:text-lg sdm:text-3xl sm:gap-3 md:text-4xl mdx:text-5xl ">
             <span>10X faster way to become</span>
             <span>fluent and confident in</span>
